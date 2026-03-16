@@ -11,7 +11,7 @@ let entrada = {
     escolha: "", //mude manuelmente aqui se precisar
 };
 //código se for instalar o inquirer
-//let question = inquirer.prompt([ { type: "input", name: "escolha", message: "oi, se você quiser ver uma atividade é só digitar o nome dela (veja o nome pelas pastas ou pelo VScode). Isso também foi passado como uma atividade sobre uso de import e export. pode digitar:"}]); let entrada.escolha = await (question)
+//let question = inquirer.prompt([ { type: "input", name: "escolha", message: "oi, se você quiser ver uma atividade é só digitar o nome dela (veja o nome pelas pastas ou pelo VScode). Isso também foi passado como uma atividade sobre uso de import e export. pode digitar:"}]); entrada.escolha = await (question)
 
 if (entrada.escolha) {
     switch (entrada.escolha){
